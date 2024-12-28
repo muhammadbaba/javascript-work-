@@ -1,4 +1,4 @@
-console.log(document.body.innerHTML='Muhammad Baba Muhammad');
+//console.log(document.body.innerHTML='Muhammad Baba Muhammad');
 
 console.log('Hello World');
 
@@ -7,7 +7,7 @@ console.log(Math.round((2095 + 799) * 0.1) / 100)
 alert('Items (' + (1 + 1) +'):  $' + (2095 + 799) / 100);
 
 
-for (let i = 1; i <= 100; i++) {
+/*for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
     } else if (i % 3 === 0) {
@@ -17,12 +17,12 @@ for (let i = 1; i <= 100; i++) {
     } else {
         console.log(i);
     }
-}
+}*/
 
 // Simple Calculator Program
 
 // Function to perform the calculation
-function calculate(num1, num2, operator) {
+/*function calculate(num1, num2, operator) {
   let result;
 
   switch (operator) {
@@ -47,10 +47,10 @@ function calculate(num1, num2, operator) {
   }
 
   return `The result of ${num1} ${operator} ${num2} is ${result}`;
-}
+}*/
 
 // Example usage
-const number1 = parseFloat(prompt("Enter the first number:"));
+/*const number1 = parseFloat(prompt("Enter the first number:"));
 const operator = prompt("Enter the operator (+, -, *, /):");
 const number2 = parseFloat(prompt("Enter the second number:"));
 
@@ -66,7 +66,7 @@ function checkEvenOrOdd(number) {
   } else {
     return `${number} is odd.`;
   }
-}
+}*/
 
 // Example usage
 const inputNumber = parseInt(prompt("Enter a number:"));
